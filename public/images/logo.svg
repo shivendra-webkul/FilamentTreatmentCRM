@@ -1,0 +1,28 @@
+<svg width="260" height="48" viewBox="0 0 260 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Text Treatment CRM -->
+  <path d="M10 12H40V36H10V12Z" fill="black" /> <!-- T -->
+  <path d="M50 12H80V16H54V24H78V28H54V36H80V40H50V12Z" fill="black" /> <!-- R -->
+  <path d="M90 12H110V16H94V24H108V28H94V36H110V40H90V12Z" fill="black" /> <!-- E -->
+  <path d="M120 12H140V16H124V36H140V40H120V12Z" fill="black" /> <!-- A -->
+  <path d="M150 12H180V16H154V36H180V40H150V12Z" fill="black" /> <!-- T -->
+  <path d="M190 12H210V16H194V24H208V28H194V36H210V40H190V12Z" fill="black" /> <!-- M -->
+  <path d="M220 12H240V16H224V36H240V40H220V12Z" fill="black" /> <!-- E -->
+  <path d="M250 12H260V36H250V12Z" fill="black" /> <!-- N -->
+  
+  <!-- Smaller "CRM" Text -->
+  <text x="130" y="44" font-family="Arial, sans-serif" font-size="12" fill="black" font-weight="bold">CRM</text>
+
+  <!-- Gradient circle element similar to example on left -->
+  <circle cx="5" cy="24" r="16" fill="url(#paint0_linear)" />
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CF8EA3" />
+      <stop offset="0.295" stop-color="#A365C8" />
+      <stop offset="0.396805" stop-color="#8660D5" />
+      <stop offset="0.715532" stop-color="#4956F0" />
+      <stop offset="1" stop-color="#3CADE8" />
+    </linearGradient>
+  </defs>
+</svg>

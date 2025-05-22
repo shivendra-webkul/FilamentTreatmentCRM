@@ -1,0 +1,30 @@
+{
+    "name": "webkul/crud",
+    "description": "",
+    "authors": [
+        {
+            "name": "Shivendra Gupta",
+            "email": "support@aureuserp.in"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Account\\Providers\\AccountServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Account\\": "src/",
+            "Webkul\\Account\\Database\\Factories\\": "database/factories/",
+            "Webkul\\Account\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webkul\\Account\\Tests\\": "tests/"
+        }
+    }
+}
